@@ -1,8 +1,8 @@
-// Excel에서 변환한 Bubble 백업 데이터\nconst BUBBLE_DATA = {
-  "artist": "강현",
-  "bubbleCount": "+816",
-  "profile": "assets/profile.jpg",
-  "messages": [
+const BUBBLE_DATA = {
+  artist: "강현",
+  bubbleCount: "+816",
+  profile: "assets/profile.jpg",
+  messages: [
     {
       "date": "2026-09-27",
       "type": "text",
