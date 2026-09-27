@@ -57,7 +57,7 @@ const BUBBLE_DATA = {
       "date": "2024-07-04",
       "type": "image",
       "time": "11:53",
-      "src": "asstes/20240704_1153.jpg"
+      "src": "assets/20240704_1153.jpg"
     },
     {
       "date": "2024-07-04",
@@ -156,7 +156,7 @@ const BUBBLE_DATA = {
       "date": "2024-07-04",
       "type": "image",
       "time": "23:05",
-      "src": "asstes/20240704_2305.jpg"
+      "src": "assets/20240704_2305.jpg"
     }
   ]
 };
