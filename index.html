@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#fff">
+<title>Bubble Archive</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="phone">
+<header class="header">
+  <button id="back" class="back">‹</button>
+  <div class="title-wrap">
+    <h1 id="artist">강현</h1>
+    <div class="bubble-count"><i>bubble</i> <span>❤️</span> <b id="count">+816</b></div>
+  </div>
+  <button id="searchBtn" class="head-icon">⌕</button>
+  <button id="menuBtn" class="head-icon menu">⋮</button>
+</header>
+
+<section id="archiveBar" class="archive-bar">
+  <button id="dateBtn">📅 <span id="dateLabel">전체 기간</span></button>
+  <button id="yearBtn">연도</button>
+  <button id="filterBtn">☰</button>
+</section>
+
+<main id="chat" class="chat"></main>
+
+<div id="searchPanel" class="search-panel hidden">
+  <input id="searchInput" placeholder="메시지 검색">
+  <button id="clearSearch">×</button>
+</div>
+
+<div id="datePanel" class="panel hidden">
+  <div class="panel-head"><strong>백업 기간</strong><button data-close="datePanel">×</button></div>
+  <button class="choice active" data-date="all">전체 기간</button>
+  <div id="dateChoices"></div>
+</div>
+
+<div id="yearPanel" class="panel hidden">
+  <div class="panel-head"><strong>연도별 보기</strong><button data-close="yearPanel">×</button></div>
+  <div id="yearChoices"></div>
+</div>
+
+<div id="filterPanel" class="panel hidden">
+  <div class="panel-head"><strong>보기 설정</strong><button data-close="filterPanel">×</button></div>
+  <button class="choice active" data-kind="all">전체 메시지</button>
+  <button class="choice" data-kind="text">텍스트</button>
+  <button class="choice" data-kind="image">사진</button>
+  <button class="choice" data-kind="reply">ARTIST의 답장</button>
+</div>
+
+<div class="composer">
+  <div class="input-fake"></div>
+  <button class="smile">☺</button>
+  <button class="send">➤</button>
+</div>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
