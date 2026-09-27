@@ -157,66 +157,6 @@
       "type": "image",
       "time": "23:05",
       "src": "asstes/20240704_2305.jpg"
-    },
-    {
-      "date": "2024-07-04",
-      "type": "text",
-      "time": "",
-      "text": ""
-    },
-    {
-      "date": "2024-07-04",
-      "type": "text",
-      "time": "",
-      "text": ""
-    },
-    {
-      "date": "2024-07-04",
-      "type": "text",
-      "time": "",
-      "text": ""
-    },
-    {
-      "date": "2024-07-04",
-      "type": "text",
-      "time": "",
-      "text": ""
-    },
-    {
-      "date": "2024-07-04",
-      "type": "text",
-      "time": "",
-      "text": ""
-    },
-    {
-      "date": "2024-07-04",
-      "type": "text",
-      "time": "",
-      "text": ""
-    },
-    {
-      "date": "2024-07-04",
-      "type": "text",
-      "time": "",
-      "text": ""
-    },
-    {
-      "date": "2024-07-04",
-      "type": "text",
-      "time": "",
-      "text": ""
-    },
-    {
-      "date": "2024-07-04",
-      "type": "text",
-      "time": "",
-      "text": ""
-    },
-    {
-      "date": "2024-07-04",
-      "type": "text",
-      "time": "",
-      "text": ""
     }
   ]
-};\n
+};
